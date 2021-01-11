@@ -1,0 +1,15 @@
+.container-register-page {
+  background-image: url('../images/Illustration.svg');
+  background-position: right 0px;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+@media (max-width: 1000px) {
+  .container-register-page {
+    background-image: none;
+  }
+}

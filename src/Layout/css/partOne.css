@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-part-one {
+  margin: 0 auto;
+  max-width: 1090px;
+}
+
+.container-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 284px;
+  margin: 80px auto;
+  max-width: 412px;
+}
+
+.container-search p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  max-width: 390px;
+}
+
+.container-search-input-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-search-input-button input {
+  border: 1px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  height: 52px;
+  padding: 8px;
+  width: calc(100% - 60px);
+}
+
+.container-search-input-button button {
+  align-items: center;
+  background-color: #badc58;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  height: 52px;
+  width: 52px;
+}
+
+.container-search-input-button img {
+  width: 24px;
+}
+
+@media (min-width: 1000px) {
+  .container-part-one {
+    height: 80vh;
+  }
+
+  .container-search {
+    margin: 130px 0 0;
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-search {
+    margin: 190px 0 0;
+    max-width: 350px;
+  }
+}
+

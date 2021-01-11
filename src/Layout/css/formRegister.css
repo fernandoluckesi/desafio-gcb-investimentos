@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-form-register {
+  padding: 0 23px;
+}
+
+.container-form-register form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  max-width: 450px;
+}
+
+.container-form-register h1 {
+  color: #1d164d;
+  font-family: 'Montserrat', sans-serif;
+  margin: 32px 0;
+  text-align: center;
+}
+
+.container-form-register label {
+  color: #1d164d;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.container-form-register input {
+  border: 1px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 52px;
+  margin-bottom: 24px;
+  padding-left: 8px;
+}
+
+.container-form-register button {
+  background-color: #badc58;
+  border: none;
+  border-radius: 5px;
+  color: #FFFF;
+  margin: 0 auto;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  padding: 16px 32px;
+  width: fit-content;
+}
+
+.container-form-register button:hover {
+  background-color: #9ac028;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .container-form-register form {
+    margin: 0 auto 32px;
+  }
+}

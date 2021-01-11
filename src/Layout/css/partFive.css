@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.join-container-part-five {
+  margin: 64px auto;
+  max-width: 454px;
+}
+
+.join-container-part-five h1 {
+  color: #1d164d;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 32px;
+  max-width: 377px;
+}
+
+.container-join-input-button input {
+  border: 1px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 52px;
+  padding-left: 8px;
+  width: calc(100% - 110px);
+}
+
+.container-join-input-button button {
+  background-color: #badc58;
+  border: none;
+  border-radius: 5px;
+  color: #ffff;
+  font-family: 'Mulish', sans-serif;
+  height: 54px;
+  margin-left: 16px;
+  width: 93px;
+}
+
+
+@media (min-width: 1000px) {
+  .container-part-five {
+    background-image: url('../images/bloco_final_image.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 48%;
+    height: 727px;
+  }
+
+  .container-part-five {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .join-container-part-five {
+    margin: 250px 0 0 135px;
+  }
+}

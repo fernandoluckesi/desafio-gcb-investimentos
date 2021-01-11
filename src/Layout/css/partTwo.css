@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+.container-part-two {
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+.title-part-two {
+  font-family: 'Montserrat', sans-serif;
+  margin: 16px auto;
+  width: fit-content;
+}
+
+.text-content-part-two {
+  font-family: 'Mulish', sans-serif;
+  margin: 0 auto;
+  max-width: 510px;
+  text-align: center;
+}
+
+.recipes-cards-part-two {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.card-part-two {
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 0px 15px 20px #1d164d;
+  display: flex;
+  flex-direction: column;
+  margin: 32px 0;
+  min-height: 379px;
+  width: fit-content;
+}
+
+.card-part-two div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 127px;
+  justify-content: space-between;
+}
+
+.recipes-cards-part-two img {
+  margin-bottom: 16px;
+}
+
+.recipes-cards-part-two img {
+  border-radius: 0 7px 0 0;
+}
+
+.recipes-cards-part-two p {
+  color: #1d164d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 220px;
+  text-align: center;
+}
+
+.recipes-cards-part-two a {
+  background-color: #badc58;
+  border-radius: 7px;
+  color: #FFFF;
+  display: block;
+  font-family: 'Mulish', sans-serif;
+  max-width: 134px;
+  padding: 14px 24px;
+  text-decoration: none;
+}
+
+@media (min-width: 778px) {
+  .card-part-two {
+    flex-direction: row;
+    min-height: fit-content;
+    width: 60%;
+    min-width: 508px;
+  }
+
+  .card-part-two img {
+    border-radius: 0;
+    margin: 0 32px 0 0;
+  }
+
+  .card-part-two div {
+    align-items: initial;
+    max-width: 187px;
+  }
+
+  .card-part-two p {
+    text-align: initial;
+  }
+
+  .card-part-two a {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1149px) {
+  .recipes-cards-part-two {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card-part-two {
+    width: 528px;
+  }
+}
+
+

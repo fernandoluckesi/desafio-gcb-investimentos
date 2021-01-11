@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+.menu-hamburger-btn {
+  background-color: #FFFF;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 24px;
+  justify-content: space-between;
+  outline: none;
+  width: 30px;
+}
+
+.menu-hamburger-btn:hover {
+  cursor: pointer;
+}
+
+.menu-hamburger-btn div {
+  background-color: #121214;
+  height: 4px;
+  transition: all 0.4s linear;
+  width: 30px;
+}
+
+.header-container {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1090px;
+  padding: 0 23px;
+}
+
+.nav-bar-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar-list-container li {
+  list-style: none;
+}
+
+.nav-bar-list-container a {
+  color: #FFFF;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-bar-list-container a:hover {
+  color: rgb(215, 219, 203);
+  cursor: pointer;
+}
+
+.brand-title {
+  color: #BADC58;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .menu-hamburger-btn {
+    display: none;
+  }
+
+  .nav-bar-list-container {
+    align-items: center;
+    width: 455px;
+  }
+
+  .nav-bar-list-container-item4 a {
+    background-color: #FFFF;
+    border-radius: 5px;
+    color: #8cd061;
+    padding: 16px 24px;
+  }
+
+  .nav-bar-list-container-item4 a:hover {
+    background-color: #ffd300;
+    color: #FFFF;
+  } 
+}
+
+@media (max-width: 1200px) {
+  .nav-bar {
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+  }
+
+  @keyframes displayNav {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+
+  @keyframes coverNav {
+    from {
+      left: 0;
+    }
+    to {
+      left: -100%;
+    }
+  }
+
+  .nav-bar-list-container {
+    align-items: center;
+    background-color: #8cd061;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .nav-bar-list-container li {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav-bar-list-container {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .btn-register {
+    display: none;
+  }
+}

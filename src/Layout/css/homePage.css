@@ -1,0 +1,14 @@
+.container-home-page {
+  background-image: url('../images/Illustration.svg');
+  background-position: right 0px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+@media (max-width: 1000px) {
+  .container-home-page {
+    background-image: none;
+  }
+}

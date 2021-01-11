@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container-part-three {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 64px;
+}
+
+.container-text-content-part-three {
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+.container-text-content-part-three h1 {
+  color: #2d3561;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 32px;
+}
+
+.container-text-content-part-three p {
+  font-family: 'Mulish', sans-serif;
+}
+
+.container-text-content-part-three span {
+  display: block;
+  margin: 16px 0;
+}
+
+.container-text-content-part-three a {
+  background-color: #badc58;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #ffff;
+  display: block;
+  margin: 32px auto;
+  padding: 16px 32px;
+  text-decoration: none;
+  width: 150px;
+}
+
+@media (min-width: 1000px) {
+  .container-part-three {
+    background-image: url('../images/bloco_services.svg');
+    background-repeat: no-repeat;
+    height: 727px;
+    margin-top: 64px;
+  }
+
+  .container-part-three {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .container-text-content-part-three {
+    margin: 136px 32px 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-text-content-part-three {
+    margin-right: 200px;
+  }
+}
